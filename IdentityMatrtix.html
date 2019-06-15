@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Identity Matrix of any number</title>
+</head>
+<script>
+    var size = prompt("Enter Any Number : ");
+
+    function generating_identity_matrix(size) {
+        var array = [size];
+        for (var i = 0; i < size; i++) {
+            for (var j = 0; j < size; j++) {
+                if (i === j) {
+                    document.writeln('1 ');
+                }
+                else {
+                    document.writeln(' 0 ');
+                }
+            }
+            document.writeln("<br>");
+        }
+    }
+    generating_identity_matrix(size);
+
+</script>
+
+<body>
+
+
+</body>
+
+</html>
